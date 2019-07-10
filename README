@@ -35,7 +35,7 @@ Result Discussion
 Number of iteration vs Learning rate
 
 Generally, the number of iteration tend to decrease when the learning rate increase. However, when the learning rate is too high, the loss function can explode.
-https://user-images.githubusercontent.com/52139322/60984781-2c65b280-a334-11e9-824d-0ebf06838755.png
+
 
 
 Momentum and Nesterov
