@@ -1,4 +1,4 @@
-#Description
+Description
 
 This project is the first part of SMM284 An introduction to machine learning 2019 CASS Business School. The goal of this project is to create a 2D gradient descent class, try to optimize the fucntion, and draw a conclusion on the effect of each hyperparameter with the result. Three techniques being used are 1. Plain Vanilla 2. Momentum 3. Nesterov and the function that is being tested is SIX-HUMP CAMEL
 
@@ -41,17 +41,26 @@ Momentum and Nesterov
 
 Problem of Gradient Descent
 
+![Plain_GD](https://user-images.githubusercontent.com/52139322/60985380-4fdd2d00-a335-11e9-809d-d05c60f30c6d.png)
+![Plain_GD_path](https://user-images.githubusercontent.com/52139322/60985383-510e5a00-a335-11e9-989c-2218a3971db5.png)
+
 Slow when gradient is constantly small
 Follow wrong path in Noisy gradient
 Particulary for this function if the learning rate is too high the magnitude of gradient is going to explode because it's very flat at the bottom and very steep on the side.
 
+![Momentum_GD](https://user-images.githubusercontent.com/52139322/60985374-4c49a600-a335-11e9-8a38-5d7557d48cdc.png)
+![Momentum_GD_path](https://user-images.githubusercontent.com/52139322/60985362-481d8880-a335-11e9-9c59-920a94b26983.png)
+
+
 ![Nesterov_GD](https://user-images.githubusercontent.com/52139322/60984025-e52af200-a332-11e9-82f3-5387e27644fb.png)
+![Nesterov_GD_path](https://user-images.githubusercontent.com/52139322/60985357-45bb2e80-a335-11e9-9a11-53752bd750d8.png)
+
+
 
 Solution: Use the learning rate decay which decrease the learning rate every n steps which generally do better. Momentum and Nesterov allows me to increase the learning rate more than 10 times.
 
 ref: https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1
 
 Further Improvement
-
 Try different active learning rate technique
 Try different gradient descent technique
