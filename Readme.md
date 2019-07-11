@@ -51,11 +51,12 @@ Particulary for this function if the learning rate is too high the magnitude of 
 Use the learning rate decay which decrease the learning rate every n steps which generally do better. Momentum and Nesterov allows me to increase the learning rate more than 10 times.
 
 Momentum allows to tune for the higher learning rate(with learning rate decay)
-
+### Momentum
 
 ![Momentum_GD](https://user-images.githubusercontent.com/52139322/60985374-4c49a600-a335-11e9-8a38-5d7557d48cdc.png)
 ![Momentum_GD_path](https://user-images.githubusercontent.com/52139322/60985362-481d8880-a335-11e9-9c59-920a94b26983.png)
 
+### Nesterov
 
 ![Nesterov_GD](https://user-images.githubusercontent.com/52139322/60984025-e52af200-a332-11e9-82f3-5387e27644fb.png)
 ![Nesterov_GD_path](https://user-images.githubusercontent.com/52139322/60985357-45bb2e80-a335-11e9-9a11-53752bd750d8.png)
